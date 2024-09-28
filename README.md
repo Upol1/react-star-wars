@@ -2,8 +2,8 @@
 
 ## 🐧 Links
 
-- `Project` https://letscode-dev.github.io/react-star-wars
-- `Repository` https://github.com/letscode-dev/react-star-wars
+- `Project` https://github.com/Apal-312/React-Star-Wars
+- `Repository` https://github.com/Apal-312/React-Star-Wars.git
 - `StoryBook` https://letscode-dev.github.io/react-star-wars/storybook
 
 ---
