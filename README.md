@@ -1,70 +1,172 @@
-# Getting Started with Create React App
+# 🪐 Star Wars Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🐧 Links
 
-## Available Scripts
+- `Project` https://letscode-dev.github.io/react-star-wars
+- `Repository` https://github.com/letscode-dev/react-star-wars
+- `StoryBook` https://letscode-dev.github.io/react-star-wars/storybook
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🐶 Available Scripts and Commands
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+# Install
+npm i                    # install dependencies
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+# General
+npm run start            # run app in the development mode
+npm run storybook        # run storybook
+npm run deploy           # deploy app on Github Pages
+```
 
-### `npm test`
+```bash
+# Deploy (part of "deploy" script)
+npm run build            # builds the app for production
+npm run build-storybook  # storybook build
+npm run build-gh-pages   # deploy on Github Pages
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Not used
+npm run eject            # remove the single build dependency
+npm run deploy-storybook # storybook deploy
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🦄 API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- https://swapi.dev (основное API)
+- https://swapi.py4e.com (запасное API - если основное не работает)
+- https://starwars-visualguide.com (изображения для API)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🐗 Lighthouse Metrics Performance
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src="https://github.com/dev-pandaren/react-star-wars/blob/__temp__/_temp/readme/lighthouse.png?raw=true" width="500px" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🐼 Рассмотренные темы
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### React.js
 
-## Learn More
+- Разворачивание приложения с `create-react-app`
+- Состояние компонента (хук `useState`)
+- Жизненный цикл компонента (хук `useEffect`)
+- Context API (хук `useContext`)
+- Рефы и DOM (хук `useRef`)
+- Мемоизация (хук `useCallback`)
+- Создание собственных хуков
+- Фрагменты
+- Паттерн `Higher-Order Component`
+- Паттерн `Подъём состояния`
+- Обработка событий
+- Controlled Components
+- Подключение CSS, `css-modules`, библиотека `classnames`
+- Списки и ключи, `Reconciliation Algorithm`
+- Отложенная загрузка компонентов `React.lazy()`
+- Библиотека `prop-types` для валидации props
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### React Router
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Базовый роутинг
+- URL Parameters
+- Query Parameters
+- Обработка страницы 404 (Not Found)
+- Хуки `useLocation` и `useHistory`
 
-### Code Splitting
+### Redux
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Базовая структура react-redux-приложения
+- Хуки `useDispatch`, `useSelector`
+- Redux Middleware
+- Создание асинхронных action с библиотекой `redux-thunk`
+- Отслеживание состояния store с `redux-devtools-extension`
 
-### Analyzing the Bundle Size
+### Общее
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Задание Alias в React-приложении (библиотека `react-app-rewire-alias`)
+- Деплой приложения на GitHub Pages (библиотека `gh-pages`)
+- Создание Ui-Kit из визуальных компонентов и публикация в `@storybook`
+- Библиотека `lodash` с готовыми функциями
+- `Visual Studio Code`. Сниппеты и плагины
 
-### Making a Progressive Web App
+### JavaScript
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Методы работы с массивами: `map`, `filter`, `forEach`
+- Асинхронность: `Promise`, `Async Functions`
+- ES6-модули (import и export)
+- Оператор разворота для объектов (props для компонента)
+- Деструктуризация массивов и объектов
+- Тернарные операторы
+- Работа с Local Storage
+- Работа с API с использованием `Fetch`
 
-### Advanced Configuration
+### Вёрстка
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- CSS Custom Properties, изменение через JavaScript
+- CSS Filters
+- CSS Flexbox
+- CSS Multi Columns
+- Стилизация скроллбара
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🐣 Порядок импортов
 
-### `npm run build` fails to minify
+- Библиотеки
+- Контекст
+- HOC
+- UI-компоненты
+- Компоненты
+- Изображения
+- Хуки
+- Роуты
+- Сервисы
+- Утилиты
+- Константы
+- Стили
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+### 🐨 TODO
+
+#### Тестирование и перформанс
+
+- `ESLint` + `Prettier`
+- Тесты: `Jest`, `Enzyme`
+- Тесты `Cypress`
+- Проверка производительности в `Lighthouse` (Google Chrome)
+
+#### Технологии
+
+- `TypeScript` https://github.com/letscode-dev/react-star-wars/tree/typescript-part
+- `Firebase` регистрация
+- `Material UI`, стилизация через css-in-js
+- `Redux Thunk`
+- `React Hook Form` для обработки данных форм
+
+#### Функционал
+
+- Перегруппировка компонентов Header при адаптиве
+- Роутер. Анимация при переходе между страницами
+- Добавить шрифты
+- Публикация NPM-пакета для UiKit
+- .bat-файлы для запуска скриптов
+
+---
+
+### NPM
+
+```bash
+npm i --save classnames lodash prop-types react react-dom react-redux react-router react-router-dom react-scripts redux redux-devtools-extension redux-thunk
+```
+
+```bash
+npm i --save-dev @storybook/addon-actions @storybook/addon-essentials @storybook/addon-links @storybook/node-logger @storybook/preset-create-react-app @storybook/react @storybook/storybook-deployer gh-pages react-app-rewire-alias react-app-rewired
+```

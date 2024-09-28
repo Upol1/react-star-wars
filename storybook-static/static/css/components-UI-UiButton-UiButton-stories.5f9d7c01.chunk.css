@@ -1,0 +1,68 @@
+:root {
+  --color-white: #fff;
+  /* --color-lightgray: #dfe2df; */
+  --color-gray: #9c9c9c;
+  /* --color-blue: #6a83fb; */
+  --color-black: #000;
+
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+
+  --font-bold: 600;
+  --font-family-main: sans-serif;
+  --transition: 0.4s;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+
+.UiButton_button__wmJc4 {
+  min-width: 100px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 3px;
+  font-size: var(--font-size-small);
+  font-family: var(--font-family-main);
+  font-weight: var(--font-bold);
+  background: none;
+  outline: none;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.UiButton_button__wmJc4:disabled,
+.UiButton_button__wmJc4:disabled:hover {
+  color: var(--color-gray);
+  background-color: transparent;
+  border-color: var(--color-gray);
+  cursor: auto;
+}
+
+/***************************************************
+THEME
+/***************************************************/
+.UiButton_dark__S7xdY {
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+.UiButton_dark__S7xdY:hover {
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+.UiButton_light__yXhH8 {
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
+}
+.UiButton_light__yXhH8:hover {
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+
+/*# sourceMappingURL=components-UI-UiButton-UiButton-stories.5f9d7c01.chunk.css.map*/
